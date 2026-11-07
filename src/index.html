@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0c" />
+  <meta name="description" content="ROGUE is an independent creative production company." />
+  <meta property="og:title" content="ROGUE — Creative Production" />
+  <meta property="og:description" content="Images, films and impossible little worlds." />
+  <meta property="og:image" content="assets/horse-car.jpg" />
+  <title>ROGUE — Creative Production</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span>View</span></div>
+  <div class="scroll-meter" aria-hidden="true"><i></i><span>00</span></div>
+  <div class="loader" aria-live="polite" aria-label="Loading ROGUE">
+    <div class="loader__grid" aria-hidden="true"></div>
+    <div class="loader__top"><span>ROGUE© / CREATIVE PRODUCTION</span><span>EST. 2022 / TORONTO</span></div>
+    <div class="loader__center"><span class="loader__kicker">An independent image-making
+        practice</span><strong>ROGUE<span>©</span></strong><span class="loader__caption">Every frame begins
+        somewhere.</span></div>
+    <div class="loader__bottom"><span>ASSEMBLING THE FRAME</span>
+      <div class="loader__line"><b></b></div><strong id="load-count">000</strong>
+    </div>
+  </div>
+  <div class="curtain" aria-hidden="true">
+    <div class="curtain__grid"></div>
+    <div class="curtain__label"><span>ROGUE© / 0<span id="route-next-index">2</span></span><strong
+        id="route-name">Selected work</strong></div>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#home" data-page="home" aria-label="ROGUE home">ROGUE<span>©</span></a>
+    <button class="sound" type="button" aria-pressed="false"><span
+        class="sound__bars"><i></i><i></i><i></i><i></i></span><span>Sound off</span></button>
+    <button class="menu" type="button" aria-label="Open navigation"><span></span><span></span></button>
+  </header>
+  <div class="route-telemetry" aria-hidden="true"><span id="route-index">01</span><i></i><span
+      id="route-total">04</span></div>
+  <div class="menu-panel" aria-hidden="true">
+    <p class="eyebrow">Index</p>
+    <nav>
+      <a href="#home" data-page="home"><em>01</em>Home</a>
+      <a href="#work" data-page="work"><em>02</em>Selected work</a>
+      <a href="#about" data-page="about"><em>03</em>About ROGUE</a>
+      <a href="#contact" data-page="contact"><em>04</em>Start something</a>
+    </nav>
+    <div class="menu-panel__bottom"><span>Toronto / 43.65°N</span><a
+        href="mailto:hello@rogue.studio">hello@rogue.studio</a></div>
+  </div>
+
+  <main>
+    <section class="page is-active" id="home" data-page-view="home">
+      <div class="home-hero">
+        <h1><span class="hero-line"><span>We make</span></span><span class="hero-line"><span>the
+              frame</span></span><span class="hero-line"><span>feel alive.</span></span></h1>
+        <div class="hero-image image-reveal"><img src="assets/horse-car.jpg"
+            alt="Horse and classic car in a dreamlike scene" /></div>
+        <a href="#work" data-page="work" class="circle-link">Enter<br />the work <b>↘</b></a>
+        <p class="hero-statement">INDEPENDENT CREATIVE PRODUCTION</p>
+      </div>
+      <section class="manifesto">
+        <div class="manifesto__label">A production company with a taste for the unexpected.</div>
+        <p>We make <span class="serif">images,</span> <span class="serif">films,</span> and impossible little worlds for
+          people who are not interested in the usual.</p>
+        <div class="manifesto__foot"><span>ROGUE / EST. 2022</span><span>WORKING GLOBALLY</span></div>
+      </section>
+      <section class="featured">
+        <div class="section-head">
+          <p class="eyebrow">Recently made</p><a href="#work" data-page="work">View all work <b>↗</b></a>
+        </div>
+        <article class="featured-card featured-card--large" data-page="work" tabindex="0">
+          <div class="image-reveal"><img src="assets/car.jpg" alt="Cinematic view from a vintage car" /></div>
+          <div class="card-caption"><span>01 / Motion</span>
+            <h2>Fast &amp; quiet</h2><span>Editorial film</span>
+          </div>
+        </article>
+        <article class="featured-card featured-card--side" data-page="work" tabindex="0">
+          <div class="image-reveal"><img src="assets/violin.jpg" alt="A musician performing in front of a mountain" />
+          </div>
+          <div class="card-caption"><span>02 / Art direction</span>
+            <h2>Peak season</h2><span>Stills</span>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <section class="page page--work" id="work" data-page-view="work">
+      <div class="page-intro">
+        <p class="eyebrow">Selected work / 2022—2026</p>
+        <h1>A little bit<br />off <span class="serif">centre.</span></h1>
+        <p class="intro-side">Campaigns, films, and visual identities<br />made for the restless ones.</p>
+      </div>
+      <div class="projects">
+        <article class="project project--wide">
+          <div class="project__image"><video autoplay muted loop playsinline poster="assets/car.jpg">
+              <source src="assets/rogue-reel.mp4" type="video/mp4" />
+            </video></div>
+          <div class="project__info">
+            <h2>Uncommon<br />ground</h2>
+            <p>ROGUE × Maison 34<br />Film / 2025</p><span>01</span>
+          </div>
+        </article>
+        <article class="project project--left">
+          <div class="project__image"><img src="assets/sheep.jpg" alt="Car caught in a flock of sheep" /></div>
+          <div class="project__info">
+            <h2>Still<br />moving</h2>
+            <p>Ode / Campaign<br />2024</p><span>02</span>
+          </div>
+        </article>
+        <article class="project project--right">
+          <div class="project__image"><img src="assets/arch.jpg" alt="Figure in an old snowy courtyard" /></div>
+          <div class="project__info">
+            <h2>After the<br />weather</h2>
+            <p>Casa Rossa / Film<br />2024</p><span>03</span>
+          </div>
+        </article>
+        <article class="project project--wide">
+          <div class="project__image"><img src="assets/horses.jpg" alt="Horses photographed from a low angle" /></div>
+          <div class="project__info">
+            <h2>Wild<br />at heart</h2>
+            <p>Arden / Art direction<br />2023</p><span>04</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page page--about" id="about" data-page-view="about">
+      <div class="about-title">
+        <p class="eyebrow">ROGUE / The company</p>
+        <h1>Beauty needs<br />a <span class="serif">little danger.</span></h1><span>(03)</span>
+      </div>
+      <div class="about-image image-reveal"><img src="assets/road.jpg" alt="Surreal roadside scene" /></div>
+      <div class="about-copy">
+        <p>ROGUE is an independent production company for the visually hungry. We assemble the right people, then give
+          them enough room to make trouble.</p>
+        <p>From a first feeling to a final frame, we produce image-making with nerve — across film, stills, cultural
+          projects, and the places in between.</p>
+      </div>
+      <section class="services">
+        <p class="eyebrow">What we do</p>
+        <ol>
+          <li><span>01</span>Production <em>Film / photography / content</em></li>
+          <li><span>02</span>Creative direction <em>Concept / treatment / casting</em></li>
+          <li><span>03</span>World building <em>Locations / set / atmosphere</em></li>
+        </ol>
+      </section>
+      <div class="about-marquee" aria-hidden="true"><span>NO TEMPLATES · NO FORMULAS · NO TEMPLATES · NO FORMULAS ·
+        </span></div>
+    </section>
+
+    <section class="page page--contact" id="contact" data-page-view="contact">
+      <div class="contact-grid">
+        <p class="eyebrow">Start something</p>
+        <p class="contact-stamp">ROGUE©<br />TORONTO<br />WORLDWIDE</p>
+        <h1>Got an<br /><span class="serif">unreasonable</span><br />idea?</h1><a class="contact-email"
+          href="mailto:hello@rogue.studio">hello@rogue.studio <b>↗</b></a>
+        <div class="contact-details">
+          <div><span>New business</span><a href="tel:+14165550199">+1 416 555 0199</a></div>
+          <div><span>Find us</span><a href="https://instagram.com" rel="noreferrer">Instagram ↗</a><a
+              href="https://vimeo.com" rel="noreferrer">Vimeo ↗</a></div>
+        </div>
+        <div class="contact-image image-reveal"><img src="assets/field.jpg"
+            alt="A solitary man, car and crooked house in a foggy field" /></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>© ROGUE 2026</span><span>All good things take time.</span><button type="button" class="to-top">Back to
+      top ↑</button></footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
