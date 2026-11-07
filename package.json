@@ -1,0 +1,20 @@
+{
+  "name": "rogue",
+  "version": "1.0.0",
+  "description": "Concept independent creative production agency",
+  "homepage": "https://github.com/JamilFayad-1/template10#readme",
+  "bugs": {
+    "url": "https://github.com/JamilFayad-1/template10/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamilFayad-1/template10.git"
+  },
+  "license": "ISC",
+  "author": "Vinko Visuals",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
