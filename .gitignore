@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local project files and dependencies
+node_modules/
+qa/
+*.tar.gz
+*.tgz
+*.zip
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and IDE temporary files
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep dist/ tracked: it contains the ready-to-deploy static site.
